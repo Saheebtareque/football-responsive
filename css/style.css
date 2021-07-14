@@ -4,12 +4,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
     padding:0;
-}
+    
+    }
 
 header{
     background-color:rgb(45, 37, 160);
     padding: 60px;
-}
+    
+      }
 
 /* attention getter style */
 
@@ -17,46 +19,65 @@ header{
     display:flex;
     justify-content: center;
 
-}
+                 }
 
-.conmebol{}
+
 .title{
     font-size: 64px;
     color:white;
-}
+
+      }
+
+
 .live{
-    display:inline;
+    display:inline-block;
     background-color:#E02C6D;
     padding: 10px 22px;
-}
+     
+     }
+
+
 .live:hover{
     background-color:rgb(61, 186, 253);
     transition: 1s ease-out
  
-}
+           }
+
+
 .live a{
     text-decoration: none;
     color:white;
     font-size: 16px;
     
-}
+       }
 
 .fa-arrow-right{
     color:white;
     margin-left: 10px;
     font-size: 16px;
-}
+  
+            }
+
+
 .banner{
     padding-left: 90px;;
-}
+            
+            }
+
+
 .banner img{
  height: 438px;
 width: 556px;
-}
+
+        }
+
 
 main{
     margin-top:70px;
-} 
+
+
+    }
+ 
 
 /* superstars and top players style */
 
@@ -64,8 +85,9 @@ main{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 165px;
-}
+    margin-bottom: 100px;
+
+           }
 
 .top-players{
 
@@ -75,44 +97,64 @@ main{
     column-gap: 30px;
     row-gap: 27px;
 
-}
+            }
+
+
 .players{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
-}
+      
+        }
+
+
 .players img{ width: 300px;
     height: 256px;
-}
+
+            }
+
+
 .players p{
+    font-size: 16px;;
     color:grey;
-}
+
+          }
 
 
 /* footer styles */
 footer{
     display:flex;
     justify-content: center;
-}
+ 
+    }
+
+
 .footer{
     width: 483px;
-}
+ 
+       }
+
 
 .footer img{
-width: 483px;
-height: 110px;
-}
+    width: 483px;
+    height: 110px;
+           }
 
+           
 .main-icons{
     display: flex;
     justify-content: center;
-}
+
+          }
+
+
 .icons{
     width: 170px;
     height: 32px;
     display:flex;
     
    
-}
+      }
+
 
 .fab{
     color: rgb(175, 179, 190);
@@ -124,10 +166,228 @@ height: 110px;
     border-radius: 20px;;
 
       
-}
+    }
 
 
 .footer p{
     text-align: center;
+
+        }
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+
+    /* attention getter style */
+    .attention-getter{
+        flex-direction: column;
+        align-items: center;
+    
+                     }
+    
+    .title{
+        font-size: 30px;
+        
+          }
+
+
+    .live{
+        
+        padding: 5px 11px;
+        margin-bottom:20px;
+    
+         }
+
+
+    .live a{
+      
+        font-size: 10px;
+        
+           }
+    
+    .fa-arrow-right{
+        margin-left: 10px;
+        font-size: 10px;
+     
+    
+                   }
+    
+
+    .banner img{
+        height: 70%;
+       width: 70%;
+       
+                }
+
+
+       /* superstars and top players style */
+
+       .superstars{
+       
+        margin-bottom: 30px;
+    
+                  }
+    
+    .top-players{
+    
+
+        grid-template-columns: repeat(1,1fr);
+        width: 400px;
+        
+                }
+
+
+    .players{
+       
+        padding: 15px;
+    
+            }
+
+
+    .players img{ width: 300px;
+        height: 256px;
+    
+                 }
+
+
+    .players p{
+        font-size: 10px;;
+        
+              }
+   
+
+    /* footer styles */
+
+
+    .footer img{
+        width: 350px;
+        height: 70px;
+        
+               }
+
+        .fab{
+            font-size: 10px;
+        
+            }
+
+    .footer p{
+            font-size: 10px;;
+            
+             }
+
+   
 }
 
+
+
+
+
+
+
+
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+       
+    
+/* attention getter style */
+    .attention-getter{
+        flex-direction: column;
+        align-items: center;
+    
+                     }
+    
+    .title{
+        font-size: 40px;
+    
+          }
+
+    .live{
+        
+        padding: 8px 15px;
+        margin-bottom:20px;
+    
+         }
+
+
+    .live a{
+      
+        font-size: 13px;
+        
+           }
+    
+    .fa-arrow-right{
+        margin-left: 10px;
+        font-size: 10px;
+     
+                   }
+    
+
+    .banner img{
+        height: 80%;
+       width: 80%;
+       
+               }
+
+       /* superstars and top players style */
+
+       .superstars{
+       
+        margin-bottom: 50px;
+    
+                  }
+
+    
+      
+    
+    .top-players{
+    
+
+        grid-template-columns: repeat(2,1fr);
+        width: 600px;
+        
+               }
+
+
+    .players{
+       
+        padding: 5px;
+    
+            }
+
+
+    .players img{ width: 280px;
+        height: 256px;
+    
+                }
+
+
+    .players p{
+        font-size: 10px;;
+        
+              }
+
+
+      /* footer styles */
+
+
+    .footer img{
+        width: 450px;
+        height: 90px;
+        
+               }
+
+
+        .fab{
+            font-size: 15px;
+           
+             }
+
+    .footer p{
+            font-size: 10px;;
+            
+             }
+
+   
+}
+
+}
