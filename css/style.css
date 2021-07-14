@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:rgb(45, 37, 160);
+    padding: 60px;
+}
+
+/* attention getter style */
+
+.attention-getter{
+    display:flex;
+
+}
+
+.conmebol{}
+.title{
+    font-size: 64px;
+    color:white;
+}
+.live{
+    display:inline;
+    background-color:#E02C6D;
+    padding: 30px;
+}
+.live:hover{
+    background-color: aqua;
+    transition:
+}
+.live a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    
+}
+.banner{
+    padding-left: 50px;;
+}
+.banner img{
+ height: 438px;
+width: 556px;
+}
+
+main{
+    margin-top:30px;} 
+
+/* superstars and top players style */
+
+.superstars{
+    display:flex;
+    justify-content: center;
+}
+
+.top-players{
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1050px;
+    column-gap: 30px;
+    row-gap: 27px;
+
+}
+.players{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding:10px;
+}
+.players img{ width: 300px;
+    height: 256px;}
