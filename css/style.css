@@ -15,6 +15,7 @@ header{
 
 .attention-getter{
     display:flex;
+    justify-content: center;
 
 }
 
@@ -26,11 +27,12 @@ header{
 .live{
     display:inline;
     background-color:#E02C6D;
-    padding: 30px;
+    padding: 10px 22px;
 }
 .live:hover{
-    background-color: aqua;
-    transition:
+    background-color:rgb(61, 186, 253);
+    transition: 1s ease-out
+ 
 }
 .live a{
     text-decoration: none;
@@ -38,8 +40,14 @@ header{
     font-size: 16px;
     
 }
+
+.fa-arrow-right{
+    color:white;
+    margin-left: 10px;
+    font-size: 16px;
+}
 .banner{
-    padding-left: 50px;;
+    padding-left: 90px;;
 }
 .banner img{
  height: 438px;
@@ -47,13 +55,16 @@ width: 556px;
 }
 
 main{
-    margin-top:30px;} 
+    margin-top:70px;
+} 
 
 /* superstars and top players style */
 
 .superstars{
     display:flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 165px;
 }
 
 .top-players{
@@ -67,7 +78,56 @@ main{
 }
 .players{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    padding:10px;
+    padding: 15px;
 }
 .players img{ width: 300px;
-    height: 256px;}
+    height: 256px;
+}
+.players p{
+    color:grey;
+}
+
+
+/* footer styles */
+footer{
+    display:flex;
+    justify-content: center;
+}
+.footer{
+    width: 483px;
+}
+
+.footer img{
+width: 483px;
+height: 110px;
+}
+
+.main-icons{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    width: 170px;
+    height: 32px;
+    display:flex;
+    
+   
+}
+
+.fab{
+    color: rgb(175, 179, 190);
+    font-size: 15px;;
+    margin-left: 10px;;
+    background-color:rgb(231, 231, 232);
+    border-radius: 100px;
+    padding: 10px;
+    border-radius: 20px;;
+
+      
+}
+
+
+.footer p{
+    text-align: center;
+}
+
